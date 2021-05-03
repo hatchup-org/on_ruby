@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <%= render 'application/meta' %>
+  <%= canonical_url %>
+  <%= browser_icon %>
+  <%= touch_icon %>
+  <%= rss_feed %>
+  <%= csrf_meta_tag %>
+  <%= stylesheet_link_tag :application_tailwind, "//fonts.googleapis.com/css?family=DM+Sans" %>
+  <%= whitelabel_stylesheet_link_tag %>
+</head>
+<body>
+  <%= render('layouts/shell') %>
+</body>
+<%= render 'app_info' %>
+<%= render 'i18njs' %>
+<%= javascript_include_tag :application %>
+<%= whitelabel_javascript_include_tag %>
+</html>
