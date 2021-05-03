@@ -84,7 +84,7 @@ GEM
       sassc-rails (~> 2.1)
       selectize-rails (~> 0.6)
     ansi (1.5.0)
-    appsignal (3.0.2)
+    appsignal (3.0.3)
       rack
     ast (2.4.2)
     autoprefixer-rails (10.2.4.0)
@@ -130,7 +130,7 @@ GEM
     ffi (1.15.0)
     font-awesome-rails (4.7.0.7)
       railties (>= 3.2, < 7)
-    geocoder (1.6.6)
+    geocoder (1.6.7)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     hashie (4.1.0)
@@ -215,7 +215,7 @@ GEM
     oga (3.2)
       ast
       ruby-ll (~> 2.1)
-    omniauth (2.0.3)
+    omniauth (2.0.4)
       hashie (>= 3.4.6)
       rack (>= 1.6.2, < 3)
       rack-protection
